@@ -98,6 +98,10 @@ public class Staffs {
         this.phonenumber = phonenumber;
     }
 
+    public void helloGuy(){
+        return 0;
+    }
+
     @Override
     public String toString() {
         return "Staffs{" + "id=" + id + ", fullname=" + fullname + ", gender=" + gender + ", address=" + address + ", phonenumber=" + phonenumber + ", dob=" + dob + ", email=" + email + ", password=" + password + '}';
